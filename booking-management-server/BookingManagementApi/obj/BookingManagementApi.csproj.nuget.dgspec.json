@@ -1,0 +1,585 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementApi\\BookingManagementApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementApi\\BookingManagementApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementApi\\BookingManagementApi.csproj",
+        "projectName": "BookingManagementApi",
+        "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementApi\\BookingManagementApi.csproj",
+        "packagesPath": "C:\\Users\\BLACKBOX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BLACKBOX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementApplication\\BookingManagementApplication.csproj": {
+                "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementApplication\\BookingManagementApplication.csproj"
+              },
+              "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementContracts\\BookingManagementContracts.csproj": {
+                "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementContracts\\BookingManagementContracts.csproj"
+              },
+              "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementDomain\\BookingManagementDomain.csproj": {
+                "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementDomain\\BookingManagementDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementApplication\\BookingManagementApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementApplication\\BookingManagementApplication.csproj",
+        "projectName": "BookingManagementApplication",
+        "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementApplication\\BookingManagementApplication.csproj",
+        "packagesPath": "C:\\Users\\BLACKBOX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BLACKBOX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementContracts\\BookingManagementContracts.csproj": {
+                "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementContracts\\BookingManagementContracts.csproj"
+              },
+              "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementInfrastructure\\BookingManagementInfrastructure.csproj": {
+                "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementInfrastructure\\BookingManagementInfrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementCommon\\BookingManagementCommon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementCommon\\BookingManagementCommon.csproj",
+        "projectName": "BookingManagementCommon",
+        "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementCommon\\BookingManagementCommon.csproj",
+        "packagesPath": "C:\\Users\\BLACKBOX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BLACKBOX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementContracts\\BookingManagementContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementContracts\\BookingManagementContracts.csproj",
+        "projectName": "BookingManagementContracts",
+        "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementContracts\\BookingManagementContracts.csproj",
+        "packagesPath": "C:\\Users\\BLACKBOX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BLACKBOX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementCommon\\BookingManagementCommon.csproj": {
+                "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementCommon\\BookingManagementCommon.csproj"
+              },
+              "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementDomain\\BookingManagementDomain.csproj": {
+                "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementDomain\\BookingManagementDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementDomain\\BookingManagementDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementDomain\\BookingManagementDomain.csproj",
+        "projectName": "BookingManagementDomain",
+        "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementDomain\\BookingManagementDomain.csproj",
+        "packagesPath": "C:\\Users\\BLACKBOX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BLACKBOX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementInfrastructure\\BookingManagementInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementInfrastructure\\BookingManagementInfrastructure.csproj",
+        "projectName": "BookingManagementInfrastructure",
+        "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementInfrastructure\\BookingManagementInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\BLACKBOX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementInfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BLACKBOX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementContracts\\BookingManagementContracts.csproj": {
+                "projectPath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementContracts\\BookingManagementContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

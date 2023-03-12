@@ -1,0 +1,17 @@
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\bin\Debug\net6.0\BookingManagementContracts.deps.json
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\bin\Debug\net6.0\BookingManagementContracts.dll
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\bin\Debug\net6.0\BookingManagementContracts.pdb
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\bin\Debug\net6.0\BookingManagementCommon.dll
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\bin\Debug\net6.0\BookingManagementDomain.dll
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\bin\Debug\net6.0\BookingManagementCommon.pdb
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\bin\Debug\net6.0\BookingManagementDomain.pdb
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\obj\Debug\net6.0\BookingManagementContracts.csproj.AssemblyReference.cache
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\obj\Debug\net6.0\BookingManagementContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\obj\Debug\net6.0\BookingManagementContracts.AssemblyInfoInputs.cache
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\obj\Debug\net6.0\BookingManagementContracts.AssemblyInfo.cs
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\obj\Debug\net6.0\BookingManagementContracts.csproj.CoreCompileInputs.cache
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\obj\Debug\net6.0\BookingManagementContracts.csproj.CopyComplete
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\obj\Debug\net6.0\BookingManagementContracts.dll
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\obj\Debug\net6.0\refint\BookingManagementContracts.dll
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\obj\Debug\net6.0\BookingManagementContracts.pdb
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementContracts\obj\Debug\net6.0\ref\BookingManagementContracts.dll

@@ -1,0 +1,12 @@
+<mat-nav-list>
+  <span *ngFor="let item of menu">
+    <span>
+      <mat-list-item (click)="onRouteClick(item.route)">
+        <div class="menu-item">
+          <mat-icon>{{item.iconName}}</mat-icon>
+          {{item.displayName}}
+        </div>
+      </mat-list-item>
+    </span>
+  </span>
+</mat-nav-list>

@@ -1,0 +1,17 @@
+<div class="confirmation">
+  <div class="confirmation__header">
+    <h2>Booking / {{data.id}}</h2>
+    <button mat-icon-button (click)="onDialogClose()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+
+  <div class="confirmation__content">
+    <h2>Are you sure do you want delete this booking?</h2>
+  </div>
+
+  <div class="confirmation__btn-action">
+    <button mat-stroked-button (click)="onRejection()">Reject</button>
+    <button mat-stroked-button color="primary" (click)="onConfirmation()">Confirm</button>
+  </div>
+</div>

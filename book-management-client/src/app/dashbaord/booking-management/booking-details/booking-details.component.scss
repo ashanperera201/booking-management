@@ -1,0 +1,30 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    margin: 0 !important;
+    font-weight: bold;
+  }
+}
+
+.table-content {
+  margin-top: 1rem;
+}
+
+.font-active {
+  color: green;
+  font-weight: bolder;
+}
+
+.font-in-active {
+  color: red;
+  font-weight: bolder;
+}
+
+.action-header,
+.btn-actions {
+text-align: center !important;
+}

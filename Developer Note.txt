@@ -1,0 +1,22 @@
+Steps to install
+----------------
+1- Take the backup file [BookingManagement.bak] and restore inside your sql server or run the script file in given folder BookingManagement.sql
+2- Install latest node and navigate into the client project and install packages.
+3- Afterwords run client project using this command. npm run start.
+4- Open the server project visual studio and set the startup project as this project BookingManagementApi
+5- Rebuild the server project and run.
+
+
+Import the api collection
+-----------------------------
+Postman collection link - https://api.postman.com/collections/3189780-b6917209-aa27-4e8f-bce5-ce121efa9b05?access_key=PMAT-01GVAHX52617W57W820JQFGTQ7
+
+Or alternatively can use swagger Or else can use possman collection exported file.
+
+
+
+Unable to achieve requirementwise 
+--------------------------------
+-1: Writing the SP, the time is limited to do that
+-2: Unable to fix some issues in frontend level.
+-3: Unable to do the improments due to limited time.

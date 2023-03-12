@@ -1,0 +1,12 @@
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\bin\Debug\net6.0\BookingManagementCommon.deps.json
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\bin\Debug\net6.0\BookingManagementCommon.dll
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\bin\Debug\net6.0\BookingManagementCommon.pdb
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\obj\Debug\net6.0\BookingManagementCommon.csproj.AssemblyReference.cache
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\obj\Debug\net6.0\BookingManagementCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\obj\Debug\net6.0\BookingManagementCommon.AssemblyInfoInputs.cache
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\obj\Debug\net6.0\BookingManagementCommon.AssemblyInfo.cs
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\obj\Debug\net6.0\BookingManagementCommon.csproj.CoreCompileInputs.cache
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\obj\Debug\net6.0\BookingManagementCommon.dll
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\obj\Debug\net6.0\refint\BookingManagementCommon.dll
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\obj\Debug\net6.0\BookingManagementCommon.pdb
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementCommon\obj\Debug\net6.0\ref\BookingManagementCommon.dll

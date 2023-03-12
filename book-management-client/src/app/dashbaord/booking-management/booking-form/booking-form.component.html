@@ -1,0 +1,57 @@
+<div class="form-container">
+  <div class="form-container__header">
+    <h2>Booking {{isUpdate ? 'Update' : 'Add'}}</h2>
+    <button mat-icon-button (click)="onDialogClose()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+
+  <div class="form-container__field-set" [formGroup]="bookingForm">
+    <mat-form-field appearance="outline">
+      <mat-label>From Address</mat-label>
+      <input matInput placeholder="From Address" formControlName="fromAddress">
+      <mat-error>This field is required.</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>To Address</mat-label>
+      <input matInput placeholder="To Address" formControlName="toAddress">
+      <mat-error>This field is required.</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Type Of Goods</mat-label>
+      <input matInput placeholder="Type Of Goods" formControlName="goodType">
+      <mat-error>This field is required.</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Date & Time</mat-label>
+      <input matInput [matDatepicker]="picker" formControlName="bookedTime">
+      <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Weight</mat-label>
+      <input matInput placeholder="Weight" type="number" formControlName="weight">
+      <mat-error>This field is required.</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Pricing</mat-label>
+      <input matInput placeholder="Pricing" type="number" formControlName="pricing">
+      <mat-error>This field is required.</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Assign Driver</mat-label>
+      <mat-select formControlName="assignedDriver">
+        <mat-option *ngFor="let driver of driverList" [value]="driver?.id">
+          {{driver.driverName}}
+        </mat-option>
+      </mat-select>
+      <mat-error>This field is required.</mat-error>
+    </mat-form-field>
+  </div>
+
+  <div class="form-container__btn-action">
+    <button mat-raised-button color="primary" (click)="onBookingProcess()">{{isUpdate ? 'Update' : 'Save'}}
+      Booking</button>
+  </div>
+</div>

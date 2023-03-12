@@ -1,0 +1,14 @@
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\bin\Debug\net6.0\BookingManagementDomain.deps.json
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\bin\Debug\net6.0\BookingManagementDomain.runtimeconfig.json
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\bin\Debug\net6.0\BookingManagementDomain.dll
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\bin\Debug\net6.0\BookingManagementDomain.pdb
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\obj\Debug\net6.0\BookingManagementDomain.csproj.AssemblyReference.cache
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\obj\Debug\net6.0\BookingManagementDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\obj\Debug\net6.0\BookingManagementDomain.AssemblyInfoInputs.cache
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\obj\Debug\net6.0\BookingManagementDomain.AssemblyInfo.cs
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\obj\Debug\net6.0\BookingManagementDomain.csproj.CoreCompileInputs.cache
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\obj\Debug\net6.0\BookingManagementDomain.dll
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\obj\Debug\net6.0\refint\BookingManagementDomain.dll
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\obj\Debug\net6.0\BookingManagementDomain.pdb
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\obj\Debug\net6.0\BookingManagementDomain.genruntimeconfig.cache
+C:\Users\BLACKBOX\Desktop\open-source\booking-management\booking-management-server\BookingManagementDomain\obj\Debug\net6.0\ref\BookingManagementDomain.dll

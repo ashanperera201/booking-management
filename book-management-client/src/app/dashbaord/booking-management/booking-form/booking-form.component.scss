@@ -1,0 +1,39 @@
+.form-container {
+
+  overflow: hidden !important;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    h2 {
+      margin: 0 !important;
+      font-weight: bold;
+    }
+  }
+
+  &__field-set {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    mat-form-field {
+      width: 24% !important;
+    }
+  }
+
+  &__btn-action{
+    display: flex;
+    margin-right: 1.8rem;
+    margin-bottom: 1rem;
+    justify-content: flex-end;
+  }
+}

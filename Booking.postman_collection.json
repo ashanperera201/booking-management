@@ -1,0 +1,700 @@
+{
+	"info": {
+		"_postman_id": "b6917209-aa27-4e8f-bce5-ce121efa9b05",
+		"name": "Booking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3189780"
+	},
+	"item": [
+		{
+			"name": "Permission",
+			"item": [
+				{
+					"name": "Permission save",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"isActive\": true,\r\n    \"createdBy\": \"f5c839e8-25be-40ba-b053-8431648066fd\",\r\n    \"permissionName\": \"BOOKING-ADD\",\r\n    \"permissionDescription\": \"Add the booking.\",\r\n    \"roleId\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5231/api/v1/permission",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"permission"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Permission get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/permission/cd6e3505-71c9-4ad8-a192-cd308268daf7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"permission",
+								"cd6e3505-71c9-4ad8-a192-cd308268daf7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Udpate permission",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n            \"id\": 4,\r\n            \"uniqueId\": \"9671db31-352b-46cb-b801-68f313ee6ba8\",\r\n            \"roleId\": 1,\r\n            \"permissionName\": \"BOOKING-EDIT\",\r\n            \"permissionDescription\": \"Edit the booking.\",\r\n            \"role\": null,\r\n            \"isActive\": true,\r\n            \"createdBy\": \"f5c839e8-25be-40ba-b053-8431648066fd\",\r\n            \"createdDateTime\": \"2023-03-12T07:33:25.78\",\r\n            \"updatedBy\": null,\r\n            \"updatedDateTime\": null\r\n        }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5231/api/v1/permission",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"permission"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all permissions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/permission/query?page=1&pageSize=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"permission",
+								"query"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete permission",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/permission/520fc2b6-4297-4d4b-87d5-456e91c9f202",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"permission",
+								"520fc2b6-4297-4d4b-87d5-456e91c9f202"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImY1YzgzOWU4LTI1YmUtNDBiYS1iMDUzLTg0MzE2NDgwNjZmZCIsImV4cCI6MTY3ODY5MjUxNCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNDEiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjQyMDAifQ.kdIZVrfSF-SyP0kj-da8riGz0flMwJnbW6dkkBSMzfg",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Create user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{  \r\n  \"userName\": \"Admin\",\r\n  \"userPassword\": \"admin@123\",\r\n  \"userEmail\": \"Admin@gmail.com\",\r\n  \"userContact\": \"23234234234\",\r\n  \"isActive\": true,\r\n  \"createdBy\": \"system\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5231/api/v1/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ijc4OTk1MDZjLWU4ZDItNDQxZS04NWYwLTkzNzZkMGQ1OGQzNSIsImV4cCI6MTY3ODY0MDE0MCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNDEiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjQyMDAifQ.gzTVB19tA7cOG3gXiegywJn3Vku81KZRKScRoVp3ZmM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update user",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 2,\r\n        \"uniqueId\": \"f5c839e8-25be-40ba-b053-8431648066fd\",\r\n        \"roleId\": 1,\r\n        \"userName\": \"Admin\",\r\n        \"userEmail\": \"Admin@gmail.com\",\r\n        \"userContact\": \"23234234234\",\r\n        \"isActive\": true,\r\n        \"createdBy\": \"system\",\r\n        \"createdDateTime\": \"0001-01-01T00:00:00\",\r\n        \"updatedBy\": \"system\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5231/api/v1/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get user",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/user/f5c839e8-25be-40ba-b053-8431648066fd",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"f5c839e8-25be-40ba-b053-8431648066fd"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJmNWM4MzllOC0yNWJlLTQwYmEtYjA1My04NDMxNjQ4MDY2ZmQiLCJleHAiOjE2Nzg2OTQyNDUsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzQxIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo0MjAwIn0.ltgpU-7r7ErdTjLoeYl-um-x-xosWalPTeSO2H6ekd0",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Authentication",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"userName\": \"Admin\",\r\n  \"password\": \"admin@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5231/api/v1/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Booking",
+			"item": [
+				{
+					"name": "Add booking",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"isActive\": true,\r\n  \"createdBy\": \"string\",\r\n  \"createdDateTime\": \"2023-03-11T15:34:14.374Z\",\r\n  \"updatedBy\": \"string\",\r\n  \"updatedDateTime\": \"2023-03-11T15:34:14.374Z\",\r\n  \"fromAddress\": \"string\",\r\n  \"toAddress\": \"string\",\r\n  \"goodType\": \"string\",\r\n  \"bookedTime\": \"2023-03-11T15:34:14.374Z\",\r\n  \"weightAndPricingMechanism\": \"string\",\r\n  \"assignedDriver\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5231/api/v1/booking",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"booking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Booking",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/booking/e97e2a1f-5fb5-4ad0-a29e-1e1a8313a42a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"booking",
+								"e97e2a1f-5fb5-4ad0-a29e-1e1a8313a42a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all bookings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/booking/query?page=1&pageSize=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"booking",
+								"query"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Booking",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/booking/e97e2a1f-5fb5-4ad0-a29e-1e1a8313a42a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"booking",
+								"e97e2a1f-5fb5-4ad0-a29e-1e1a8313a42a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get booking by assignee id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/booking/by-assignee/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"booking",
+								"by-assignee",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ijc4OTk1MDZjLWU4ZDItNDQxZS04NWYwLTkzNzZkMGQ1OGQzNSIsImV4cCI6MTY3ODY0MDE0MCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNDEiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjQyMDAifQ.gzTVB19tA7cOG3gXiegywJn3Vku81KZRKScRoVp3ZmM",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Role",
+			"item": [
+				{
+					"name": "Role save",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"isActive\": true,\r\n  \"createdBy\": \"f5c839e8-25be-40ba-b053-8431648066fd\",\r\n  \"roleName\": \"Customer\",\r\n  \"roleDescription\": \"Customer\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5231/api/v1/role",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"role"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Role get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/permission/cd6e3505-71c9-4ad8-a192-cd308268daf7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"permission",
+								"cd6e3505-71c9-4ad8-a192-cd308268daf7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Role  Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"uniqueId\": \"cd6e3505-71c9-4ad8-a192-cd308268daf7\",\r\n    \"roleId\": null,\r\n    \"permissionName\": \"BOOK-ADD\",\r\n    \"permissionDescription\": \"Add the book.\",\r\n    \"role\": null,\r\n    \"isActive\": true,\r\n    \"createdBy\": \"string\",\r\n    \"createdDateTime\": \"2023-03-11T10:10:26.64\",\r\n    \"updatedBy\": \"string\",\r\n    \"updatedDateTime\": \"2023-03-11T10:10:26.64\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5231/api/v1/permission",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"permission"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all  roles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/role/query?page=1&pageSize=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"role",
+								"query"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete role",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5231/api/v1/permission/520fc2b6-4297-4d4b-87d5-456e91c9f202",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5231",
+							"path": [
+								"api",
+								"v1",
+								"permission",
+								"520fc2b6-4297-4d4b-87d5-456e91c9f202"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImY1YzgzOWU4LTI1YmUtNDBiYS1iMDUzLTg0MzE2NDgwNjZmZCIsImV4cCI6MTY3ODY5MjUxNCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNDEiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjQyMDAifQ.kdIZVrfSF-SyP0kj-da8riGz0flMwJnbW6dkkBSMzfg",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	]
+}

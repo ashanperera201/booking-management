@@ -1,0 +1,49 @@
+.auth-container {
+  display: grid;
+  grid-template-columns: [back-ground-start] 75% [background-ends login-starts] 25% [login-ends];
+  grid-template-rows: [screen-top]100vh[screen-bottom];
+
+  &__background {
+    grid-row: screen-top / screen-bottom;
+    grid-column: back-ground-start / background-ends;
+    background: url('https://static.vecteezy.com/system/resources/previews/004/725/821/original/online-taxi-booking-travel-service-flat-design-illustration-via-mobile-app-on-smartphone-take-someone-to-a-destination-suitable-for-background-poster-or-banner-vector.jpg') no-repeat;
+    background-size: cover;
+  }
+
+  &__login {
+    grid-row: screen-top / screen-bottom;
+    grid-column: login-starts / login-ends;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    width: 100%;
+
+    h1 {
+      margin: 0 !important;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 2rem;
+    }
+
+    &--form{
+      position: relative;
+      top: 10%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      mat-form-field {
+        width: 90% !important;
+      }
+
+      .btn-action {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 90%;
+        button {
+          width: 30% !important;
+        }
+      }
+    }
+
+  }
+}

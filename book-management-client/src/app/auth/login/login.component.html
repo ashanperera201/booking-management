@@ -1,0 +1,23 @@
+<div class="auth-container">
+  <div class="auth-container__background"></div>
+  <div class="auth-container__login">
+    <h1>User Login</h1>
+    <div class="auth-container__login--form" [formGroup]="loginForm">
+      <mat-form-field appearance="outline">
+        <mat-label>User Name</mat-label>
+        <input matInput placeholder="User Name" formControlName="userName">
+        <mat-error>User name is required.</mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>User Password</mat-label>
+        <input matInput placeholder="User Password" type="password" formControlName="password">
+        <mat-error>User password is required.</mat-error>
+      </mat-form-field>
+
+      <div class="btn-action">
+        <button mat-raised-button color="primary" (click)="onAuthLogin()">Login</button>
+      </div>
+    </div>
+  </div>
+</div>

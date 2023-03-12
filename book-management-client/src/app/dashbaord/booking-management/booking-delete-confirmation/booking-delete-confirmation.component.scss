@@ -1,0 +1,36 @@
+.confirmation {
+  overflow: hidden !important;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    h2 {
+      margin: 0 !important;
+      font-weight: bold;
+    }
+  }
+
+  &__content{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  &__btn-action{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    button {
+      width: 20%;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PCJXVEiGqhJylQsjculdXt3VXeNx2Wez029gPfWNokdnFIKPXOjItdhaWBr/nTU3TitWRsLiw3rDGvZ18nblgQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BLACKBOX\\Desktop\\open-source\\booking-management\\booking-management-server\\BookingManagementCommon\\BookingManagementCommon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BLACKBOX\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\BLACKBOX\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\BLACKBOX\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\BLACKBOX\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
